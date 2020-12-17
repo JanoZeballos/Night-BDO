@@ -3,7 +3,7 @@ import './Herosection.css'
 
 function Herosection() {
     return (
-        <div className='container'>
+        <div className='container' id='inicio'>
             <div className='hero-cont'>
                 <img className='background' src='/images/background.jpg' alt='Background' />
             </div>
