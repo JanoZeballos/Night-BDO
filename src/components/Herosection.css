@@ -61,6 +61,13 @@
     width: 112px;
     height: 5px;
     border-bottom: 1px solid black;
+    animation-name: inner;
+    animation-duration: 4s;
+}
+
+@keyframes inner{
+    from {background-color: white; width: 400px;}
+    to {background-color: red; width: 112px;}
 }
 
 @media screen and (max-width: 768px){
