@@ -117,4 +117,8 @@
         color: #242424;
         transition: 250ms;
     }
+
+    #discord{
+        background-color: #7289da;
+    }
 }

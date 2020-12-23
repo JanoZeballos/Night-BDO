@@ -3,7 +3,7 @@ import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  const [, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -36,12 +36,12 @@ function Navbar() {
                 </li>
                 <li>
                 <a href='#cards' className='nav-links' onClick={closeMobileMenu}>
-                    Galeria
+                    Informacion
                 </a>
                 </li>
                 <li>
-                <a href='#guias' className='nav-links' onClick={closeMobileMenu}>
-                    Guias
+                <a href='#discord' className='nav-links' id='discord' onClick={closeMobileMenu}>
+                    Discord
                 </a>
                 </li>
             </ul>
