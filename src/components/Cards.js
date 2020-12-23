@@ -3,9 +3,8 @@ import './Cards.css'
 
 function Cards() {
     return (
-        <>
-        <div className='background_main'>
         <div className='cards-container' id='cards'>
+            <img className='background_cards' src='/images/background_cards.jpg' alt='Card_1' />
             <ul className="cards">
                 <li className="cards_item">
                     <a href='/'>
@@ -42,8 +41,6 @@ function Cards() {
                 </li>
             </ul>
         </div>
-        </div>
-        </>
     )
 }
 
