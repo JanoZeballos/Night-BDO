@@ -1,14 +1,52 @@
+.titles-container{
+    height: 25vh;
+    margin: 0 auto;
+    user-select: none;
+    text-align: center;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.fade_line {
+    height: 1px;
+    background-color: #E6E6E6;
+    width: 66.0em;
+    margin: 0 auto;
+    background-image: linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -o-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -moz-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -webkit-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -ms-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, gray), color-stop(0.98, white) );
+}
+
+.text{
+    font-style: italic;
+    padding: 1rem;
+}
+
 .cards-container{
     background-color: #ffffff;
-    height: 100vh;
+    height: 80vh;
     padding: 0 1rem;
     margin: 0 auto;
     user-select: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -5rem;
+    margin-bottom: 2rem;
 }
 
+/* Background resource - don't implemented */
 .background_cards{
     position: absolute;
     width: 100%;
@@ -86,7 +124,7 @@
     font-weight: 400;
 }
 
-.card_background{
+.card_background {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
@@ -105,5 +143,14 @@
         display: flex;
         opacity: 1;
         transform: none;
+    }
+
+    .titles-container{
+        display: none;
+    }
+
+    .cards-container{
+        position: relative;
+        margin-top: 0;
     }
 }
