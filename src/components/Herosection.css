@@ -2,10 +2,10 @@
     background: #0c0c0c;
     display: flex;
     align-items: center;
-    height: 100vh;
+    justify-content: center;
+    height: 95vh;
     padding: 0 1rem;
     position: relative;
-    margin-top: -80px;
     color: #fff;
     user-select: none;
 }
@@ -27,23 +27,20 @@
     -o-object-fit: cover;
     object-fit: cover;
     pointer-events: none;
+    object-position: 60%;
+    filter: opacity(0.5) drop-shadow(0 0 0 rgba(255, 0, 0, 0.568));
 }
 
 .content{
-    z-index: 3;
-    height: calc(100vh - 80px);
-    max-height: 100%;
-    padding: 0rem calc((100vh - 1300px) / 2);
+    z-index: 1;
 }
 
 .items{
+    text-align: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    position: absolute;
-    top: 25%;
-    left: 10%;
+    align-items: center;
+    flex-direction: column;
 }
 
 .items h1{
@@ -59,22 +56,26 @@
 }
 
 .line{
-    background-color: red;
-    width: 112px;
-    height: 5px;
+    background-color: white;
+    width: 200px;
+    height: 3px;
     border-bottom: 1px solid black;
     animation-name: inner;
     animation-duration: 4s;
 }
 
 @keyframes inner{
-    from {background-color: white; width: 400px;}
-    to {background-color: red; width: 112px;}
+    from {background-color: red; width: 500px;}
+    to {background-color: white; width: 200px;}
 }
 
 @media screen and (max-width: 768px){
+    .container{
+        height: 90vh;
+    }
+
     .background{
-        object-position: 58%;
+        object-position: 36%;
     }
 
     .line{

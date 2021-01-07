@@ -18,14 +18,9 @@
 .fade_line {
     height: 1px;
     background-color: #E6E6E6;
-    width: 66.0em;
+    width: 66%;
     margin: 0 auto;
-    background-image: linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-    background-image: -o-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-    background-image: -moz-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-    background-image: -webkit-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-    background-image: -ms-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-    background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, gray), color-stop(0.98, white) );
+    background-image: linear-gradient(to left , white 2%, #E6E6E6 50%, white 98%);
 }
 
 .text{
@@ -95,12 +90,12 @@
     background-color: rgba(0, 0, 0, 0.3);
     opacity: 0;
 	transform: translateY(30px);
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .card_background:hover + .card_content{
     opacity: 1;
-	transform: translateY(0px);
+    transform: translateY(0px);
 }
 
 .card_content:hover{

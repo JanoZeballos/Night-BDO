@@ -6,7 +6,7 @@ function Cards() {
         <>
         <div className='titles-container'>
             <h1 className='title'>Informacion</h1>
-            <div class="fade_line"></div> 
+            <div className="fade_line"></div> 
             <p className='text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         </div>
         <div className='cards-container' id='cards'>

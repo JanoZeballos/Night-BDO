@@ -40,7 +40,7 @@ function Navbar() {
                 </a>
                 </li>
                 <li>
-                <a href='#discord' className='nav-links' id='discord' onClick={closeMobileMenu}>
+                <a href='https://discord.gg/2aWDvV5' className='nav-links' id='discord' onClick={closeMobileMenu}>
                     Discord
                 </a>
                 </li>
