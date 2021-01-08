@@ -10,8 +10,8 @@ function Herosection() {
             <div className='content'>
                 <div className='items'>
                     <h1>NIGHT</h1>
-                    <p>Black Desert Online</p>
                     <div className="line"></div>
+                    <p>Black Desert Online</p>
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Cards.css'
 
 function Cards() {
@@ -12,7 +13,7 @@ function Cards() {
         <div className='cards-container' id='cards'>
             <ul className="cards">
                 <li className="cards_item">
-                    <a href='/'>
+                    <a href='/Khan'>
                     <div className="card">
                         <img className='card_background' src='/images/khan.png' alt='Card_1' />
                         <div className="card_content">
@@ -23,7 +24,7 @@ function Cards() {
                     </a>
                 </li>
                 <li className="cards_item">
-                    <a href='/'>
+                    <Link to='/Night'>
                     <div className="card">
                         <img className='card_background' src='/images/night.png' alt='Card_3' />
                         <div className="card_content">
@@ -31,10 +32,10 @@ function Cards() {
                             <p className="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                     </div>
-                    </a>
+                    </Link>
                 </li>
                 <li className="cards_item">
-                    <a href='/'>
+                    <Link to='/Vell'>
                     <div className="card">
                         <img className='card_background' src='/images/vell.jpg' alt='Card_2' />
                         <div className="card_content">
@@ -42,7 +43,7 @@ function Cards() {
                             <p className="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                     </div>
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </div>
