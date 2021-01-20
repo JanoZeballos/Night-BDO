@@ -13,7 +13,7 @@ function InfoKhan() {
             (ya que da alguno de los materiales necesarios para hacer el Tier 3) o si tenes mucha suerte te puede dar el corazon.
             </p>
             <h2 className='subtitulo_khan'>¿Porque hay que ir a KHAN? Por esto!</h2>
-            <img className='img_drop' src='/images/khan/drop.png' alt='Drop' />
+            <img className='img_drop' src='images/khan/drop.png' alt='Drop' />
         </div>
         <div className='container_khan_img'>
 

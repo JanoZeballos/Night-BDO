@@ -27,7 +27,7 @@ function Navbar() {
     <>
       <nav className='nav'>
           <div className='bars' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            <i className={click ? '' : ''} />
           </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li>
