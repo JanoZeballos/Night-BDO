@@ -27,7 +27,7 @@ function Navbar() {
     <>
       <nav className='nav'>
           <div className='bars' onClick={handleClick}>
-            <i className={click ? '' : ''} />
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li>
@@ -36,9 +36,9 @@ function Navbar() {
                 </Link>
                 </li>
                 <li>
-                <a href='#cards' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='/#cards' className='nav-links' onClick={closeMobileMenu}>
                     Informacion
-                </a>
+                </Link>
                 </li>
                 <li>
                 <a href='https://discord.gg/2aWDvV5' className='nav-links' id='discord' onClick={closeMobileMenu}>

@@ -6,11 +6,13 @@ import Home from './components/pages/Home'
 import Khan from './components/pages/Khan'
 import Night from './components/pages/Night'
 import Vell from './components/pages/Vell'
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
+      <ScrollToTop />
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />

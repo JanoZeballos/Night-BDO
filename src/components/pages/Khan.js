@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css'
-import InfoKhan from '../InfoKhan';
+import InfoKhan from '../InfoKhan'
 
 function Khan() {
     return (

@@ -13,7 +13,7 @@ function Cards() {
         <div className='cards-container' id='cards'>
             <ul className="cards">
                 <li className="cards_item">
-                    <a href='/Khan'>
+                    <Link to='/Khan'>
                     <div className="card">
                         <img className='card_background' src='images/khan.png' alt='Card_1' />
                         <div className="card_content">
@@ -21,7 +21,7 @@ function Cards() {
                             <p className="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                     </div>
-                    </a>
+                    </Link>
                 </li>
                 <li className="cards_item">
                     <Link to='/Night'>
