@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../App.css'
-import Herosection from '../Herosection'
+import E404 from '../E404'
 
 function Vell() {
     return (
         <>
-            <Herosection />
+            <E404 />
         </>
     );
 }

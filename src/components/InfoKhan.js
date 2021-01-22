@@ -14,9 +14,9 @@ function InfoKhan() {
             </p>
             <h2 className='subtitulo_khan'>¿Porque hay que ir a KHAN? Por esto!</h2>
             <img className='img_drop' src='images/khan/drop.png' alt='Drop' />
-        </div>
-        <div className='container_khan_img'>
-
+            <img className='arrow' src='images/arrow.png' alt='Arrow' />
+            <h2 className='subtitulo_video'>Video KHAN</h2>
+            <div className='black_box_video'></div>
         </div>
         </>
     )
