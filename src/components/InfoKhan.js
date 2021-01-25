@@ -16,7 +16,9 @@ function InfoKhan() {
             <img className='img_drop' src='images/khan/drop.png' alt='Drop' />
             <img className='arrow' src='images/arrow.png' alt='Arrow' />
             <h2 className='subtitulo_video'>Video KHAN</h2>
-            <div className='black_box_video'></div>
+            <video className='video_khan' controls playsinline>
+                <source src="videos/video_test.mp4" type="video/mp4" />
+            </video>
         </div>
         </>
     )
