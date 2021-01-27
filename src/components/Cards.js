@@ -15,9 +15,9 @@ function Cards() {
                 <li className="cards_item">
                     <Link to='/Khan'>
                     <div className="card">
-                        <img className='card_background' src='images/khan.png' alt='Card_1' />
+                        <img className='card_background' src='images/vell.jpg' alt='Card_1' />
                         <div className="card_content">
-                            <h2 className="card_title">KHAN</h2>
+                            <h1 className='title_card'>Oceano</h1>
                             <p className="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ function Cards() {
                     <div className="card">
                         <img className='card_background' src='images/night.png' alt='Card_3' />
                         <div className="card_content">
-                            <h2 className="card_title">NIGHT</h2>
+                            <h1 className='title_card_2'>Night</h1>
                             <p className="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                     </div>
@@ -37,9 +37,9 @@ function Cards() {
                 <li className="cards_item">
                     <Link to='/Vell'>
                     <div className="card">
-                        <img className='card_background' src='images/vell.jpg' alt='Card_2' />
+                        <img className='card_background' src='images/khan.png' alt='Card_2' />
                         <div className="card_content">
-                            <h2 className="card_title">VELL</h2>
+                            <h1 className='title_card_3'>Life</h1>
                             <p className="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                     </div>
