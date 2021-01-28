@@ -1,7 +1,7 @@
 import React from 'react'
-import './InfoKhan.css'
+import './Khan.css'
 
-function InfoKhan() {
+function Khan() {
     return (
         <>
         <div className='container_khan' id='iniciokhan'>
@@ -14,7 +14,7 @@ function InfoKhan() {
             </p>
             <h2 className='subtitulo_khan'>¿Porque hay que ir a KHAN? Por esto!</h2>
             <img className='img_drop' src='images/khan/drop.png' alt='Drop' />
-            <img className='arrow' src='images/arrow.png' alt='Arrow' />
+            <img className='arrow' src='images/khan/arrow.png' alt='Arrow' />
             <h2 className='subtitulo_video'>Video KHAN</h2>
             <video className='video_khan' controls playsinline>
                 <source src="videos/video_test.mp4" type="video/mp4" />
@@ -24,4 +24,4 @@ function InfoKhan() {
     )
 }
 
-export default InfoKhan
+export default Khan

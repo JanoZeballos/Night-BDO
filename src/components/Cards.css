@@ -30,16 +30,18 @@
 
 .cards-container{
     background-color: #ffffff;
-    height: 80vh;
+    height: auto;
     padding: 0 1rem;
     margin: 0 auto;
     user-select: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 8rem;
 }
+
+/*
+Text animation gradient
 
 .title_card {
     text-align: center;
@@ -82,8 +84,10 @@
     animation: gradient-text 20s linear infinite;
     animation-fill-mode: forwards;
 }
+*/
 
-/* Background resource - don't implemented */
+/*
+Background resource - don't implemented 
 .background_cards{
     position: absolute;
     width: 100%;
@@ -91,17 +95,24 @@
     -o-object-fit: cover;
     object-fit: cover;
 }
+*/
   
 .cards {
     display: flex;
     position: relative;
     align-items: flex-end;
+    flex-wrap: wrap;
     overflow: hidden;
     max-width: 1024px;
     width: 100%;
     text-align: center;
     color: whitesmoke;
     padding: 1.5rem;
+}
+
+.cards>.cards_item {
+    flex-grow: 1;
+    width: 33%;
 }
   
 .cards_item {
@@ -111,6 +122,7 @@
   
 .card {
     height: 500px;
+    max-width: 1024px;
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -119,7 +131,7 @@
     text-align: center;
     color: whitesmoke;
     background-color: whitesmoke;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 26px -10px;
 }
 
 .card_content {

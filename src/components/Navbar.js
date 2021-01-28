@@ -36,11 +36,6 @@ function Navbar() {
                 </Link>
                 </li>
                 <li>
-                <Link to='/#cards' className='nav-links' onClick={closeMobileMenu}>
-                    Informacion
-                </Link>
-                </li>
-                <li>
                 <a href='https://discord.gg/2aWDvV5' className='nav-links' id='discord' onClick={closeMobileMenu}>
                     Discord
                 </a>
