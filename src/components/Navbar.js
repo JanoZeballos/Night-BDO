@@ -36,6 +36,16 @@ function Navbar() {
                 </Link>
                 </li>
                 <li>
+                <div className="nav-links dropdown">
+                  <button className="dropbtn">Informacion</button>
+                  <div className="dropdown-content">
+                    <Link to="/Oceano">Oceano</Link>
+                    <Link to="/Night">Night</Link>
+                    <Link to="/Life">Life</Link>
+                  </div>
+                </div>
+                </li>
+                <li>
                 <a href='https://discord.gg/2aWDvV5' className='nav-links' id='discord' onClick={closeMobileMenu}>
                     Discord
                 </a>

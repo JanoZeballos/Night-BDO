@@ -5,6 +5,7 @@ import './App.css';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './components/pages/Home'
 import Oceano from './components/oceano/Cards';
+import Khan from './components/oceano/Khan';
 import E404 from './components/E404';
 
 function App() {
@@ -16,8 +17,10 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/Oceano' exact component={Oceano} />
+        <Route path='/oceano/Khan' exact component={Khan} />
         <Route path='/Night' exact component={E404} />
         <Route path='/Life' exact component={E404} />
+        <Route path='/E404' exact component={E404} />
       </Switch>
     </Router>
     </>

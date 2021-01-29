@@ -1,4 +1,4 @@
-.titles-container{
+.titles-container-oc{
     height: 20vh;
     margin: 0 auto;
     user-select: none;
@@ -195,8 +195,12 @@
         transform: none;
     }
 
-    .titles-container{
+    .fade_line_oc{
         display: none;
+    }
+
+    .titles-container-oc{
+        padding: 0;
     }
 
     .cards-container{
