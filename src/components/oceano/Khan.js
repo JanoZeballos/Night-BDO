@@ -13,8 +13,8 @@ function Khan() {
             (ya que da alguno de los materiales necesarios para hacer el Tier 3) o si tenes mucha suerte te puede dar el corazon.
             </p>
             <h2 className='subtitulo_khan'>¿Porque hay que ir a KHAN? Por esto!</h2>
-            <img className='img_drop' src='images/khan/drop.png' alt='Drop' />
-            <img className='arrow' src='images/khan/arrow.png' alt='Arrow' />
+            <img className='img_drop' src='images/oceano/khan/drop.png' alt='Drop' />
+            <img className='arrow' src='images/oceano/khan/arrow.png' alt='Arrow' />
             <h2 className='subtitulo_video'>Video KHAN</h2>
             <video className='video_khan' controls playsinline>
                 <source src="videos/video_test.mp4" type="video/mp4" />

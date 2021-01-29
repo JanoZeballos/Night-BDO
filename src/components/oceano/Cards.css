@@ -1,5 +1,5 @@
 .titles-container{
-    height: 25vh;
+    height: 20vh;
     margin: 0 auto;
     user-select: none;
     text-align: center;
@@ -15,12 +15,22 @@
     font-weight: bold;
 }
 
-.fade_line {
+.fade_line_oc {
     height: 1px;
-    background-color: #E6E6E6;
-    width: 66%;
+    background-color: #3b3434;
+    width: 45%;
     margin: 0 auto;
-    background-image: linear-gradient(to left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: linear-gradient(to left , white 2%, #313131 50%, white 98%);
+    position: relative;
+}
+
+.line-oc {
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    margin-top: -10px;
 }
 
 .text{
@@ -28,7 +38,7 @@
     padding: 1rem;
 }
 
-.cards-container{
+.cards-container-oc{
     background-color: #ffffff;
     height: auto;
     padding: 0 1rem;
@@ -37,9 +47,53 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8rem;
 }
-  
+
+.title_card {
+    text-align: center;
+    color: #000;
+    background-size: 200% auto;
+    background: linear-gradient(to right, #00ceff, #3629a2, #00ceff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-text 20s linear infinite;
+    animation-fill-mode: forwards;
+    padding: 1.5em;
+}
+
+@keyframes gradient-text {
+    0% {
+        background-position: 0 1600px;
+    }
+    100% {
+        background-position: 1600px 0;
+    }
+}
+
+/*
+.title_card_2 {
+    text-align: center;
+    color: #000;
+    background-size: 200% auto;
+    background: linear-gradient(to right, #ff9634, #ff0000, #ff9634);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-text 20s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+.title_card_3 {
+    text-align: center;
+    color: #000;
+    background-size: 200% auto;
+    background: linear-gradient(to right, #f1ff34, #00ff00, #f1ff34);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-text 20s linear infinite;
+    animation-fill-mode: forwards;
+}
+*/
+
 .cards {
     display: flex;
     position: relative;
@@ -127,7 +181,7 @@
     .cards{
         display: unset;
     }
-    
+
     .cards-container{
         height: 100%;
         margin-bottom: 1rem;
