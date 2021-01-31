@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Night-BDO/static/css/main.1f8fd122.chunk.css",
-    "main.js": "/Night-BDO/static/js/main.a372ea43.chunk.js",
-    "main.js.map": "/Night-BDO/static/js/main.a372ea43.chunk.js.map",
+    "main.css": "/Night-BDO/static/css/main.f6c5e0e2.chunk.css",
+    "main.js": "/Night-BDO/static/js/main.930a9591.chunk.js",
+    "main.js.map": "/Night-BDO/static/js/main.930a9591.chunk.js.map",
     "runtime-main.js": "/Night-BDO/static/js/runtime-main.5d0994c6.js",
     "runtime-main.js.map": "/Night-BDO/static/js/runtime-main.5d0994c6.js.map",
-    "static/js/2.b32412d4.chunk.js": "/Night-BDO/static/js/2.b32412d4.chunk.js",
-    "static/js/2.b32412d4.chunk.js.map": "/Night-BDO/static/js/2.b32412d4.chunk.js.map",
+    "static/js/2.8fa81dd1.chunk.js": "/Night-BDO/static/js/2.8fa81dd1.chunk.js",
+    "static/js/2.8fa81dd1.chunk.js.map": "/Night-BDO/static/js/2.8fa81dd1.chunk.js.map",
     "index.html": "/Night-BDO/index.html",
-    "static/css/main.1f8fd122.chunk.css.map": "/Night-BDO/static/css/main.1f8fd122.chunk.css.map",
-    "static/js/2.b32412d4.chunk.js.LICENSE.txt": "/Night-BDO/static/js/2.b32412d4.chunk.js.LICENSE.txt"
+    "static/css/main.f6c5e0e2.chunk.css.map": "/Night-BDO/static/css/main.f6c5e0e2.chunk.css.map",
+    "static/js/2.8fa81dd1.chunk.js.LICENSE.txt": "/Night-BDO/static/js/2.8fa81dd1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5d0994c6.js",
-    "static/js/2.b32412d4.chunk.js",
-    "static/css/main.1f8fd122.chunk.css",
-    "static/js/main.a372ea43.chunk.js"
+    "static/js/2.8fa81dd1.chunk.js",
+    "static/css/main.f6c5e0e2.chunk.css",
+    "static/js/main.930a9591.chunk.js"
   ]
 }
