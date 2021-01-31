@@ -52,6 +52,8 @@
 }
 
 .title_card {
+    margin: 0 auto;
+    user-select: none;
     text-align: center;
     color: #000;
     background-size: 200% auto;
@@ -60,7 +62,7 @@
     -webkit-text-fill-color: transparent;
     animation: gradient-text 20s linear infinite;
     animation-fill-mode: forwards;
-    padding: 1.5em;
+    padding: 2em;
 }
 
 @keyframes gradient-text {
@@ -204,8 +206,13 @@
         margin-top: 0;
     }
 
-    .cards>.cards_item {
+    .cards>.cards_item{
         flex-grow: 0;
         width: 100%;
+    }
+
+    .title_card{
+        padding: 0;
+        padding-top: 1em;
     }
 }

@@ -6,9 +6,9 @@ function Cards() {
 
     return (
         <>
-        <div className='titles-container-oc'>
-            <h1 className='title_card'>Oceano</h1>
-        </div>
+        {/*<div className='titles-container-oc'>
+        </div>*/}
+        <h1 className='title_card'>Oceano</h1>
         <div className="fade_line_oc">
             <img className='line-oc' src='images/logo_line.png' alt='Line' />
         </div>
