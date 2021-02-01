@@ -39,6 +39,24 @@ function Cards() {
             <div className="fade_line"></div> 
             <p className='text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         </div>
+        {/*
+        <div className='cards-container-mk' id='cards'>
+            <ul className="cards">
+                <li className="cards_item">
+                    <Link to='/' onClick={ (event) => event.preventDefault() }>
+                    <div className="card">
+                        <h2 className='title_prox'>BLACK MARKET</h2>
+                        <img className='card_background' src='images/cards/market.jpg' alt='Card_4' style={grayfilter} />
+                        <div className={state.checkedB ? 'card_content_nohover' : 'card_content'} style={none}>
+                            <h1 className='card_title'>Mercado Negro</h1>
+                            <p className="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                        </div>
+                    </div>
+                    </Link>
+                </li>
+            </ul>
+        </div>
+        */}
         <div className='cards-container' id='cards'>
             <ul className="cards">
                 <li className="cards_item">
