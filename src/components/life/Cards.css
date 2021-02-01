@@ -2,18 +2,6 @@
     padding-bottom: 5em;
 }
 
-.titles-container-oc{
-    height: 20vh;
-    margin: 0 auto;
-    user-select: none;
-    text-align: center;
-    padding: 0 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .title{
     padding: 2rem;
     font-weight: bold;
@@ -55,13 +43,14 @@
     align-items: center;
 }
 
-.title_card {
+
+.title_card_3 {
     margin: 0 auto;
     user-select: none;
     text-align: center;
     color: #000;
     background-size: 200% auto;
-    background: linear-gradient(to right, #00ceff, #3629a2, #00ceff);
+    background: linear-gradient(to right, #bcc538, #23b923, #bcc538);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradient-text 20s linear infinite;
@@ -191,8 +180,12 @@
         width: 100%;
     }
 
-    .title_card{
+    .title_card_3{
         padding: 0;
         padding-top: 1em;
+    }
+
+    .container_card{
+        padding-bottom: 1em;
     }
 }

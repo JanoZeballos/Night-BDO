@@ -55,13 +55,14 @@
     align-items: center;
 }
 
-.title_card {
+
+.title_card_2 {
     margin: 0 auto;
     user-select: none;
     text-align: center;
     color: #000;
     background-size: 200% auto;
-    background: linear-gradient(to right, #00ceff, #3629a2, #00ceff);
+    background: linear-gradient(to right, #ff9634, #ff0000, #ff9634);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradient-text 20s linear infinite;
@@ -191,7 +192,7 @@
         width: 100%;
     }
 
-    .title_card{
+    .title_card_2{
         padding: 0;
         padding-top: 1em;
     }

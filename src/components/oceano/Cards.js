@@ -6,8 +6,7 @@ function Cards() {
 
     return (
         <>
-        {/*<div className='titles-container-oc'>
-        </div>*/}
+        <div className='container_card'>
         <h1 className='title_card'>Oceano</h1>
         <div className="fade_line_oc">
             <img className='line-oc' src='images/logo_line.png' alt='Line' />
@@ -47,10 +46,22 @@ function Cards() {
                     </div>
                     </Link>
                 </li>
+                <li className="cards_item">
+                    <Link to='/E404'>
+                    <div className="card">
+                        <img className='card_background' src='images/oceano/navegacion.jpg' alt='Card_4' />
+                        <div className="card_content">
+                            <h1 className='card_title'>Navegacion</h1>
+                            <p className="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                        </div>
+                    </div>
+                    </Link>
+                </li>
             </ul>
         </div>
         <div className="fade_line_oc">
             <img className='line-oc' src='images/logo_line.png' alt='Line' />
+        </div>
         </div>
         </>
     )

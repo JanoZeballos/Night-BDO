@@ -78,7 +78,7 @@ function Cards() {
                     <Link to='/' onClick={ (event) => event.preventDefault() }>
                     <div className="card">
                         <h2 className='title_prox'>PROXIMAMENTE</h2>
-                        <img className='card_background' src='images/2020-06-29_1644308039.png' alt='Card_4' style={grayfilter} />
+                        <img className='card_background' src='images/night/2020-06-29_1644308039.png' alt='Card_4' style={grayfilter} />
                         <div className={state.checkedB ? 'card_content_nohover' : 'card_content'} style={none}>
                             <h1 className='card_title'>Life</h1>
                             <p className="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
