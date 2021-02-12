@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Night-BDO/static/css/main.7b38fdd1.chunk.css",
-    "main.js": "/Night-BDO/static/js/main.99dc69a6.chunk.js",
-    "main.js.map": "/Night-BDO/static/js/main.99dc69a6.chunk.js.map",
+    "main.css": "/Night-BDO/static/css/main.6f83389b.chunk.css",
+    "main.js": "/Night-BDO/static/js/main.95183aec.chunk.js",
+    "main.js.map": "/Night-BDO/static/js/main.95183aec.chunk.js.map",
     "runtime-main.js": "/Night-BDO/static/js/runtime-main.5d0994c6.js",
     "runtime-main.js.map": "/Night-BDO/static/js/runtime-main.5d0994c6.js.map",
-    "static/css/2.23154d62.chunk.css": "/Night-BDO/static/css/2.23154d62.chunk.css",
-    "static/js/2.623808f5.chunk.js": "/Night-BDO/static/js/2.623808f5.chunk.js",
-    "static/js/2.623808f5.chunk.js.map": "/Night-BDO/static/js/2.623808f5.chunk.js.map",
+    "static/css/2.2a70f6c1.chunk.css": "/Night-BDO/static/css/2.2a70f6c1.chunk.css",
+    "static/js/2.d3e00285.chunk.js": "/Night-BDO/static/js/2.d3e00285.chunk.js",
+    "static/js/2.d3e00285.chunk.js.map": "/Night-BDO/static/js/2.d3e00285.chunk.js.map",
     "index.html": "/Night-BDO/index.html",
-    "static/css/2.23154d62.chunk.css.map": "/Night-BDO/static/css/2.23154d62.chunk.css.map",
-    "static/css/main.7b38fdd1.chunk.css.map": "/Night-BDO/static/css/main.7b38fdd1.chunk.css.map",
-    "static/js/2.623808f5.chunk.js.LICENSE.txt": "/Night-BDO/static/js/2.623808f5.chunk.js.LICENSE.txt"
+    "static/css/2.2a70f6c1.chunk.css.map": "/Night-BDO/static/css/2.2a70f6c1.chunk.css.map",
+    "static/css/main.6f83389b.chunk.css.map": "/Night-BDO/static/css/main.6f83389b.chunk.css.map",
+    "static/js/2.d3e00285.chunk.js.LICENSE.txt": "/Night-BDO/static/js/2.d3e00285.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5d0994c6.js",
-    "static/css/2.23154d62.chunk.css",
-    "static/js/2.623808f5.chunk.js",
-    "static/css/main.7b38fdd1.chunk.css",
-    "static/js/main.99dc69a6.chunk.js"
+    "static/css/2.2a70f6c1.chunk.css",
+    "static/js/2.d3e00285.chunk.js",
+    "static/css/main.6f83389b.chunk.css",
+    "static/js/main.95183aec.chunk.js"
   ]
 }
